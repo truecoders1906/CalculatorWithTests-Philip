@@ -3,17 +3,31 @@ using System.Collections.Generic;
 
 namespace CalculatorWithTests
 {
-    class Calculator
+    public class Calculator
     {
-        public int Add { get; set; }
-        public int Subtract { get; set; }
-        public int Multiply { get; set; }
-        public int divide { get; set; }
-        public int Factorial { get; set; }
-
-
-        public Add()
+        public int AddNumbers(int num1, int num2)
         {
-            throw new NotImplementedException();
+            return 0;// temporary
+        }
+
+        public int Difference(int num1, int num2)
+        {
+            return 0;// temporary
+        }
+
+        public int Multiply(int num1, int num2)
+        {
+            return 0;// temporary
+        }
+
+        public int Divide(int num1, int num2)
+        {
+            return 0;// temporary
+        }
+
+        public int Factorial(int num1, int num2)
+        {
+            return 0;// temporary
         }
     }
+}
